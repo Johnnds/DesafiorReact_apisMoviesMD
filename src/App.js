@@ -4,8 +4,6 @@ import Descubrir from './Descubrir';
 import { Navbar, Nav, Container, Form, FormControl, Button } from 'react-bootstrap';
 
 
-const API_Search = 'https://api.themoviedb.org/3/search/movie?api_key=fd3e3b49c9e6f23e1fe7bf95cfe08a89'
-
 
 const App = () => {
 
@@ -81,7 +79,7 @@ const App = () => {
               </div>
             </div>
           ) : (
-            <h2>Ha ocurrido un error :c </h2>
+            <h2>No hay nada que mostrar </h2>
           )}
         </div>
 
